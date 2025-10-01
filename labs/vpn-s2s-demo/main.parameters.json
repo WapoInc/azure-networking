@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "eastus"
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "adminPassword": {
+      "value": "ChangeThisPassword123!"
+    },
+    "sharedKey": {
+      "value": "ChangeThisSharedKey123!"
+    },
+    "deployTestVMs": {
+      "value": true
+    },
+    "gatewaySku": {
+      "value": "Basic"
+    },
+    "enableBgp": {
+      "value": false
+    }
+  }
+}

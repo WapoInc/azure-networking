@@ -2,6 +2,14 @@
 
 This demo lab creates a simulated on-premises VNet connected to an Azure VNet via IPSec VPN tunnel.
 
+## 📚 Documentation
+
+- **[Getting Started Guide](getting-started.md)** - Step-by-step walkthrough for beginners
+- **[Architecture Diagram](architecture.md)** - Visual guide and detailed architecture
+- **[Configuration Snippets](configuration-snippets.md)** - Useful commands and configurations
+- **[Quick Reference](quick-reference.md)** - Cheat sheet for common tasks
+- **[Troubleshooting Guide](troubleshooting.md)** - Solutions to common issues
+
 ## Architecture Overview
 
 This lab deploys:

@@ -153,6 +153,31 @@ This design includes the following layers:
 
 # Upcoming designs (Work In Progress...)
 
+# Demo Labs
+
+## VPN Site-to-Site Demo Lab
+
+A complete demo lab for learning Azure VPN Gateway with Site-to-Site IPSec tunnels.
+
+**[Go to Lab →](labs/vpn-s2s-demo/)**
+
+This hands-on lab deploys:
+- On-Premises VNet (192.168.1.0/24) with VPN Gateway
+- Azure VNet (10.100.0.0/22) with VPN Gateway
+- IPSec tunnel connecting both environments
+- Test VMs for connectivity validation
+
+**Time to deploy:** ~45-50 minutes  
+**Cost:** ~$129-355/month (Basic to VpnGw1 SKU)
+
+Features:
+- ✅ Complete Infrastructure as Code (Bicep templates)
+- ✅ Automated deployment scripts
+- ✅ Comprehensive documentation
+- ✅ Configuration snippets
+- ✅ Troubleshooting guides
+- ✅ Ready for production customization (BGP, Active-Active, custom IPSec policies)
+
 # Design Areas (Cross Functional - Part 2)
 
 
